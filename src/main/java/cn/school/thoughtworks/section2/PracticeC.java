@@ -5,8 +5,7 @@ import java.util.Map;
 
 public class PracticeC {
     Map<String, Integer> countSameElements(List<String> collection1) {
-        //实现练习要求，并改写该行代码。
-
-        return null;
+        //the same as practiceB in section2
+        return new PracticeB().countSameElements(collection1);
     }
 }
